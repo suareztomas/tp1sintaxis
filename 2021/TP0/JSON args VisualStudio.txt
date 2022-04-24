@@ -1,0 +1,9 @@
+"-g",
+"-Wall",
+"-std=c11",
+"-pedantic-errors",
+"-Wno-switch",
+"-D_GNU_SOURCE",
+"${fileDirname}${pathSeparator}*.c",
+"-o",
+"${fileDirname}/${workspaceFolderBasename}"
