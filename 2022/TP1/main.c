@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
 
+// Autor: Tomás Suarez
+
 int main(void) {
 
     char c;
