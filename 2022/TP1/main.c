@@ -9,12 +9,12 @@ int main(void) {
 
     while(c = getchar()) {
         if (isupper(c))
-            printf("%c", tolower(c));
+            putchar(tolower(c));
         else if (islower(c))
-            printf("%c", toupper(c));
+            putchar(toupper(c));
         else if (!isdigit(c))
-            printf("%c", c);
-        else
-            continue;
+            putchar(c);
+        else if (c == EOF)
+            break;
     }
 }
